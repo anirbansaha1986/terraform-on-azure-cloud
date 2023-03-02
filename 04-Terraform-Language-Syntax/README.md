@@ -51,13 +51,16 @@ resource "azurerm_virtual_network" "myvnet" { # Resource BLOCK
 - [Resource: Meta-Arguments](https://www.terraform.io/docs/language/meta-arguments/depends_on.html)
 
 ## Step-04: Understand about Terraform Top-Level Blocks
-- Discuss about Terraform Top-Level blocks
-1. Terraform Settings Block
-2. Provider Block
-3. Resource Block
-4. Input Variables Block
-5. Output Values Block
-6. Local Values Block
-7. Data Sources Block
-8. Modules Block
+Discussion about Terraform Top-Level blocks. Appear outside of any other block in a TF Config file. 
+ - Fundamental Blocks
+ 1. Terraform Settings Block
+ 2. Provider Block
+ 3. Resource Block
+ - Variable Blocks
+ 1. Input Variables Block
+ 2. Output Values Block
+ 3. Local Values Block
+ - Calling/reference Blocks
+ 1. Data Sources Block
+ 2. Modules Block
 
