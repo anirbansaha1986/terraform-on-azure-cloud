@@ -53,9 +53,9 @@ resource "azurerm_virtual_network" "myvnet" { # Resource BLOCK
 ## Step-04: Understand about Terraform Top-Level Blocks
 Discussion about Terraform Top-Level blocks. Appear outside of any other block in a TF Config file. 
  - Fundamental Blocks
- 1. Terraform Settings Block
- 2. Provider Block
- 3. Resource Block
+ 1. Terraform Settings Block - Special block used to configure some behaviors. Specifying a required Terraform CLI Version. Specifying Provider Requirements & Versions. Configuring a Terraform Backend (Terraform State)
+ 2. Provider Block - Heart of Terraform. Terraform relies on providers to interact with remote Systems. Declare providers for Terraform to install providers & use them. Provider configurations belong to Root Module.
+ 3. Resource Block - Each Resource Block describes one or more infrastructure Objects. Resource Syntax to declare resources. handles resource declarations and configure resource post-creation actions
  - Variable Blocks
  1. Input Variables Block
  2. Output Values Block
